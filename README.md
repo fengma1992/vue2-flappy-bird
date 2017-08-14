@@ -1,6 +1,6 @@
 # vue-flappy-bird
 
-> A Vue.js project
+> A Vue2 Flappy Bird game. reference: https://github.com/YangQiGitHub/FlyBird
 
 ## Build Setup
 
