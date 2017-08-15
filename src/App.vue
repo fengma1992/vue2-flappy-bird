@@ -12,9 +12,9 @@
             <div id="num3" ref="num3"></div>
         </div>
         <div v-show="gameOver" id="gameOver">
-            <img src="../static/img/game_over.jpg" alt="game over"/>
-            <img src="../static/img/message.jpg" alt="message"/>
-            <img src="../static/img/ok.jpg" alt="ok" @click="retry"/>
+            <img src="/static/img/game_over.jpg" alt="game over"/>
+            <img src="/static/img/message.jpg" alt="message"/>
+            <img src="/static/img/ok.jpg" alt="ok" @click="retry"/>
         </div>
         <div v-show="started" id="bird" ref="bird"></div>
     </div>
@@ -45,26 +45,26 @@
                 num2: undefined,
                 num3: undefined,
                 bird: undefined,
-                birdArr: ['../static/img/bird0.png', '../static/img/bird1.png'],
-                upBirdArr: ['url(../static/img/up_bird0.png)', 'url(../static/img/up_bird1.png)'],
-                downBirdArr: ['url(../static/img/down_bird0.png)', 'url(../static/img/down_bird1.png)'],
+                birdArr: ['/static/img/bird0.png', '/static/img/bird1.png'],
+                upBirdArr: ['url(/static/img/up_bird0.png)', 'url(/static/img/up_bird1.png)'],
+                downBirdArr: ['url(/static/img/down_bird0.png)', 'url(/static/img/down_bird1.png)'],
                 pipeUrl: {
-                    upMod: 'url(../static/img/up_mod.png)',
-                    upPipe: 'url(../static/img/up_pipe.png)',
-                    downMod: 'url(../static/img/down_mod.png)',
-                    downPipe: 'url(../static/img/down_pipe.png)',
+                    upMod: 'url(/static/img/up_mod.png)',
+                    upPipe: 'url(/static/img/up_pipe.png)',
+                    downMod: 'url(/static/img/down_mod.png)',
+                    downPipe: 'url(/static/img/down_pipe.png)',
                 },
                 scoreImgUrl: [
-                    'url(../static/img/0.jpg)',
-                    'url(../static/img/1.jpg)',
-                    'url(../static/img/2.jpg)',
-                    'url(../static/img/3.jpg)',
-                    'url(../static/img/4.jpg)',
-                    'url(../static/img/5.jpg)',
-                    'url(../static/img/6.jpg)',
-                    'url(../static/img/7.jpg)',
-                    'url(../static/img/8.jpg)',
-                    'url(../static/img/9.jpg)',
+                    'url(/static/img/0.jpg)',
+                    'url(/static/img/1.jpg)',
+                    'url(/static/img/2.jpg)',
+                    'url(/static/img/3.jpg)',
+                    'url(/static/img/4.jpg)',
+                    'url(/static/img/5.jpg)',
+                    'url(/static/img/6.jpg)',
+                    'url(/static/img/7.jpg)',
+                    'url(/static/img/8.jpg)',
+                    'url(/static/img/9.jpg)',
                 ],
                 blocksArr: [],
                 blockDistance: undefined,
@@ -254,7 +254,7 @@
                 this.gameOver = false;
                 this.started = false;
                 this.bird.style.top='200px';
-                this.bird.style.background = 'url(../../static/img/bird0.png) no-repeat';
+                this.bird.style.background = 'url(../static/img/bird0.png) no-repeat';
                 this.titleShake();
                 this.landMove();
             }

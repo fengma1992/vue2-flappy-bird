@@ -90,10 +90,10 @@ var webpackConfig = merge(baseWebpackConfig, {
                 to: config.build.assetsSubDirectory,
                 ignore: ['.*']
             },
-            {
-                from: path.resolve(__dirname, '../src/img'),
-                to: path.join(config.build.assetsSubDirectory,'img'),
-            }
+            // {
+            //     from: path.resolve(__dirname, '../src/img'),
+            //     to: path.join(config.build.assetsSubDirectory,'img'),
+            // }
         ])
     ]
 })

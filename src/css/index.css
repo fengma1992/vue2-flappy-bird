@@ -2,7 +2,7 @@
     width: 343px;
     height: 480px;
     margin: 0 auto;
-    background-image: url(../../static/img/bg.jpg);
+    background-image: url(/static/img/bg.jpg);
     position: relative;
     top: 100px;
     overflow: hidden;
@@ -11,7 +11,7 @@
 #headTitle { /*开始标题*/
     width: 236px;
     height: 77px;
-    background-image: url(../../static/img/head.jpg);
+    background-image: url(/static/img/head.jpg);
     position: absolute;
     left: 53px;
     top: 100px;
@@ -27,7 +27,7 @@
     height: 29px;
     padding: 0;
     margin: 0;
-    background-image: url(../../static/img/start.jpg);
+    background-image: url(/static/img/start.jpg);
     position: absolute;
     left: 129px;
     top: 250px;
@@ -36,7 +36,7 @@
 #grassLand1 { /*草地1*/
     height: 14px;
     width: 343px;
-    background-image: url(../../static/img/banner.jpg);
+    background-image: url(/static/img/banner.jpg);
     position: absolute;
     top: 423px;
 }
@@ -44,7 +44,7 @@
 #grassLand2 { /*草地2*/
     height: 14px;
     width: 343px;
-    background-image: url(../../static/img/banner.jpg);
+    background-image: url(/static/img/banner.jpg);
     position: absolute;
     top: 423px;
     left: 343px;
@@ -57,7 +57,7 @@
     z-index: 1;
     width: 40px;
     height: 28px;
-    background: url(../../static/img/bird0.png) no-repeat;
+    background: url(/static/img/bird0.png) no-repeat;
 }
 
 #score {
@@ -71,7 +71,7 @@
     height: 39px;
     width: 28px;
     float: left;
-    background-image: url(../../static/img/0.jpg);
+    background-image: url(/static/img/0.jpg);
 }
 
 #gameOver {
