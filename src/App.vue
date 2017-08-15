@@ -254,7 +254,7 @@
                 this.gameOver = false;
                 this.started = false;
                 this.bird.style.top='200px';
-                this.bird.style.background = 'url(../static/img/bird0.png) no-repeat';
+                this.bird.style.background = 'url(/static/img/bird0.png) no-repeat';
                 this.titleShake();
                 this.landMove();
             }
