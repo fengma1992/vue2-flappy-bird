@@ -2,6 +2,8 @@
 
 > A Vue2 Flappy Bird game. reference: https://github.com/YangQiGitHub/FlyBird
 
+> Try at: https://fengma1992.github.io/vue2-flappy-bird/
+
 ## Build Setup
 
 ``` bash
